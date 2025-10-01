@@ -14,9 +14,28 @@
 
 # How to Run?
 
-##STEPS:
+## STEPS:
 
 Clone the repository
 
-''' https://github.com/maddy-abhishek/deep_learning.git '''
-  
+``` https://github.com/maddy-abhishek/deep_learning.git ```
+
+## STEP 01- Create a virtual environment after opening the repository
+
+## STEP 02- install the requirements
+
+   ``` pip install -r requirements.txt ```
+
+   ## Finally run the following command
+   
+  ``` python app.py ```
+
+  NOW,
+
+  ``` open up you local host and port ```
+
+ ## DVC cmd
+ 
+1. dvc init
+2. dvc repro
+3. dvc dag
