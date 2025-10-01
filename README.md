@@ -1,6 +1,6 @@
-## Chicken-Disease-Classification--Project
+# Chicken-Disease-Classification--Project
 
-  # Workflows
+## Workflows
 
   1. Update config.yaml
   2. Update secrets.yaml [Optional]
@@ -12,4 +12,11 @@
   8. Update the main.py
   9. Update the dvc.yaml
 
+# How to Run?
+
+##STEPS:
+
+Clone the repository
+
+'''
   
