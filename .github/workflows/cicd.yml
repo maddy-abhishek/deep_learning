@@ -43,7 +43,7 @@ jobs:
         context: .
         file: ./DockerFile
         push: true
-        tags: ${{ secrets.DOCKER_USERNAME }}/DLclassification:latest
+        tags: ${{ secrets.DOCKER_USERNAME }}/classification:latest
 
     - name: Image digest
       run: echo ${{ steps.build-and-publish.outputs.digest }}
