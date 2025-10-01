@@ -1,17 +1,9 @@
-# Use the official Python image from the Docker Hub
-FROM python:3.9-slim
+FROM python:3.13-slim
 
-# Set the working directory
+RUN apt update -y && apt install awscli -y
 WORKDIR /app
 
-# Copy the current directory contents into the container at /app
 COPY . /app
+RUN pip install -r requirements.txt
 
-# Install any needed packages specified in requirements.txt
-RUN pip install flask
-
-# Make port 5000 available to the world outside this container
-EXPOSE 5000
-
-# Run app.py when the container launches
-CMD ["python", "app.py"]
+CMD ["python3", "app.py"]
