@@ -37,5 +37,21 @@ Clone the repository
  ## DVC cmd
  
 1. dvc init
+   
 2. dvc repro
+   
 3. dvc dag
+   
+  # Docker-Deployment-with-Github-Actions
+
+## 1. Login to Docker Hub
+
+## 2. Create Personal Access Token for deployment
+
+## 3. Setup github secrets:
+
+``` DOCKER_USERNAME ```
+
+``` DOCKER_PASSWORD ```
+
+
